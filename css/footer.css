@@ -1,0 +1,58 @@
+.footer{
+    height: auto;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-right: none;
+    margin-top: 100px;
+    box-shadow: 0px 1px 0px #ffffff,0px 1px 0px #ffffff inset;
+}
+.footer-text{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.footer-text div{
+    width: 25%;
+    height: 100px;
+    color: #000000;
+}
+.imgbox{
+    display: inline-block;
+    width: 51px;
+    height: 100px;
+    background-image: url(../images/image/vip-powers.png);
+    background-repeat: no-repeat;
+    background-position: 0 -111px;
+    margin-left: 80px;
+}
+.ibox2{
+    background-position: -51px -111px;
+}
+.ibox3{
+    background-position: -102px -111px;
+}
+.ibox4{
+    background-position: -153px -111px;
+}
+/* 竖杠 */
+.bar::after{
+    content: attr(info1);
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 100px;
+    top: 0;
+    right: -6px;
+    background-color: #dedede;
+}
+/* 最底部文字 */
+.footer-bottom{
+    text-align: center;
+    color: #a2a2a2;
+    line-height: 30px;
+}

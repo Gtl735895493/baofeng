@@ -1,0 +1,300 @@
+@import './common.css';
+
+/* 导航 */
+.nav-box{
+    width: 100%;
+    height: 56px;
+    background-color: #242428;
+    line-height: 56px;
+}
+/* 左侧 */
+.box-left div{
+    float: left;
+    height: 56px;
+}
+.box-left div a{
+    display: inline-block;
+    color: #989898;
+    padding: 0 20px;
+    height: 100%;
+    
+}
+.box-left div a:hover{
+    background-color: #0b68c8;
+    color: #ffffff;
+}
+.logoBox{
+    width: 180px;
+    background: url(../images/image/indexicons.png) no-repeat;
+    background-position: 0 -557px;
+}
+.sort{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../images/image/indexicons.png) no-repeat;
+    background-position: -383px -560px;
+    margin-left: 5px;
+}
+.sort:hover{
+    background-position: -383px -644px;
+}
+
+/* 搜索框 */
+.search-box{
+    width: 560px;
+    height: 30px;
+    margin: 12px 70px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.search{
+    float: left;
+    width: 482px;
+    padding-left: 15px;
+    height: 30px;
+    font-size: 12px;
+    color: #989898;
+    background-color: #383a42;
+}
+.btn{
+    float: left;
+    width: 76px;
+    height: 30px;
+    background-color: #989898;
+    background: url(../images/image/indexicons.png) no-repeat;
+    background-position: -197px -49px;
+    cursor: pointer;
+}
+
+/* 右侧 */
+ul li{
+    float: right;
+    line-height: 15px;
+    text-align: center;
+    padding: 8px 10px;
+}
+ul li:hover{
+    background-color: #0b68c8;
+}
+ul li a{
+    color: #989898;
+    font-size: 12px;
+}
+ul li a:hover{
+    color: #ffffff;
+}
+ul li a p{
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    background: url(../images/image/indexicons.png) no-repeat;
+}
+.see{
+    background-position: -84px -157px;
+}
+.coll{
+    background-position: -84px -195px;
+}
+.client{
+    background-position: -165px -157px;
+}
+.login{
+    background-position: -165px -231px;
+}
+/* 视频区域 */
+.movie-box{
+    width: 100%;
+    height: 757px;
+    background-color: #383a42;
+}
+.movie-nav{
+    position: relative;
+    height: 57px;
+    border: 1px solid #383a42;
+}
+.movie-nav p{
+    margin-top: 7px;
+    font-size: 13px;
+    color: #ffffff;
+}
+.movie-nav span{
+    color: #989898;
+    font-size: 12px;
+}
+.adver{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    top: 0;
+    right: 0;
+    line-height: 51.5px;
+    text-align: center;
+}
+.adver span{
+    color: #000000;
+    font-size: 16px;
+}
+.adver1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* 视频框 */
+.movie{
+    width: 77%;
+    height: 634px;
+    background-color: #959595;
+}
+/* 视频列表 */
+.movie-list-box{
+    width: 23%;
+    height: 634px;
+    background-color: #242428;
+}
+.movie-bottom{
+    width: 77%;
+    height: 45px;
+    background-color: #242428;
+}
+.movie-bottom1{
+    cursor: pointer;
+    width: 23%;
+    height: 45px;
+    background: url(../images/image/play_download.png) no-repeat;
+}
+.movie-bottom1:hover{
+    background: url(../images/image/play_download.png) no-repeat;
+    background-position: 0 -55px;
+}
+/* 视频底部菜单 */
+.mb-left li,.mb-right li{
+    font-size: 13px;
+    color: #989898;
+    line-height: 45px;
+    padding: 0;
+}
+.mb-left li span,.mb-right li span{
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+    height: 25px;
+    background: url(../images/image/playicons.png) no-repeat;
+}
+.mb-left li:hover,.mb-right li:hover{
+    background-color: #242428;
+    cursor: pointer;
+}
+.mb-left .roll1{
+    background-position: 24px -68px;
+}
+.mb-left .roll2{
+    background-position: 24px -32px;
+}
+.mb-left .roll3{
+    background-position: 24px 2px;
+}
+.mb-right .roll4{
+    background-position: 24px -195px;
+}
+.mb-right .roll5{
+    background-position: 24px -230px;
+}
+.mb-right .roll6{
+    background-position: 24px -157px;
+}
+/* 其他部分 */
+.other{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.left-other{
+    width: 66%;
+    height: auto;
+}
+.left-other h2 p, .right-other h2 p{
+    display: inline-block;
+    width: 4px;
+    height: 22px;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+    background-color: #009cff;
+}
+.left-other h2, .right-other h2 {
+    display: inline-block;
+    font-weight: 100;
+    margin-right: 30px;
+}
+.right-other{
+    width: 34%;
+    border: 1px solid;
+    height: auto;
+}
+/* 猜你喜欢 */
+.guess-box{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.guess-box span{
+    width: 25%;
+}
+.guess-box span img{
+    width: 160px;
+}
+/* 热门推荐 */
+.recom-box a,.film-list a{
+    color: #26201c;
+    font-size: 13px;
+}
+.recom-box{
+    width: 80%;
+}
+.recom-box .recom{
+    margin-top: 20px;
+}
+
+/* 电影榜 */
+.film-list{
+    width: 20%;
+    border: 1px solid red;
+}
+.film-list ul li{
+    float: left;
+    width: 170px;
+    text-align: left;
+    color: #2f2f2f;
+}
+.film-list ul li span{
+    float: right;
+    color: #fc5229;
+}
+/* 品论区 */
+textarea{
+    width: 100%;
+    height: 123px;
+    resize: none;
+    border: 1px solid #c8c8c8;
+}
+.right-other button{
+    background-color: #1a9eff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #ffffff;
+}
+.right-other .mobile{
+    font-size: 12px;
+    color: #7d7d7d;
+}
+.right-other .mobile a{
+    font-size: 12px;
+    color: #1a9eff;
+    text-decoration: underline;
+}
+hr{
+    background-color: #1a9eff;
+
+}

@@ -1,0 +1,176 @@
+@import "./common.css";
+@import "./header.css";
+@import "./footer.css";
+
+.main-section{
+    height: auto;
+}
+.banner-slider{
+    position: relative;
+    height: 440px;
+}
+/* 相框 */
+.xiangk{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.xiangk .pic-tiao{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 900%;
+    height: 100%;
+}
+.xiangk .pic-tiao li{
+    float: left;
+    width: 11.111111%;
+    height: 100%;
+}
+/* 两侧箭头部分 */
+.arrow{
+    position: absolute;
+    top:50%;
+    margin-top: -35px;
+    width: 37px;
+    height: 37px;
+    background-image: url(../images/image/vip-tips.png);
+    cursor: pointer;
+}
+#zuo{
+    left: 60px;
+    background-position: -4px -54px;
+}
+#you{
+    right: 60px;
+    background-position: -47px -54px;
+}
+.nav-bottom-box{
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    background-image: url(../images/image/vip-tips.png);
+    background-position: 0px -100px;
+    text-align: center;
+}
+.nav-bottom-box img{
+    display: inline-block;
+    margin: 10px 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.nav-bottom-box img:hover{
+    opacity: 1;
+}
+/* 滚动轮播 */
+.nav-roll{
+    position: relative;
+    width: 100%;
+    height: 111px;
+}
+.roll-box{
+    overflow: hidden;
+}
+.roll-box1{
+    height: 112px;
+    width: 2410px;
+}
+.nav-roll .roll{
+    float: left;
+    margin-right: 17px;
+    width: 200px;
+    height: 111px;
+    /* border: 1px solid; */
+    background-image: url(../images/image/vip-powers.png);
+}
+.roll2{
+    background-position: -200px 0px;
+}
+.roll3{
+    background-position: -400px 0px;
+}
+.roll4{
+    background-position: -600px 0px;
+}
+.roll5{
+    background-position: -800px 0px;
+}
+.roll6{
+    background-position: -1000px 0px;
+}
+.roll7{
+    background-position: -1200px 0px;
+}
+.roll8{
+    background-position: -1400px 0px;
+}
+.roll9{
+    background-position: -1600px 0px;
+}
+.roll10{
+    background-position: -1800px 0px;
+}
+.roll11{
+    background-position: -2000px 0px;
+}
+/* 左右箭头 */
+#z-arrow{
+    position: absolute;
+    color: #bababa;
+    font-size: 30px;
+    left: 100px;
+    top: 35px;
+    cursor: pointer;
+}
+#y-arrow{
+    position: absolute;
+    color: #bababa;
+    font-size: 30px;
+    right: 100px;
+    top: 35px;
+    cursor: pointer;
+}
+/* 强力推荐 */
+.qiangli{
+    padding: 30px 0 15px 0;
+}
+.gengduo{
+    display: block;
+    font-size: 12px;
+    padding-top: 45px;
+}
+.gengduo a{
+    color: #000000;
+}
+/* 强力推荐列表 */
+.recommend{
+    height: 335px;
+    /* display: flex; */
+}
+.recommend div{
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+    width: 207px;
+}
+.recommend div a img{
+    margin-bottom: 5px;
+}
+.recommend div a{
+    font-size: 14px;
+    color: #000000;
+}
+.recommend p{
+    color: #999999;
+    font-size: 12px;
+}
+.recommend div::after{
+    content: attr(info);
+    position: absolute;
+    display: block;
+    bottom: 8px;
+    right: 12px;
+    color: red;
+    font-size: 16px;
+}

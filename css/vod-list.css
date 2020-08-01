@@ -1,0 +1,123 @@
+@import "./common.css";
+@import "./header.css";
+@import "./footer.css";
+
+/* 外侧大盒子 */
+.big-box{
+    height: auto;
+    background-color: #ffffff;
+}
+.nav-m{
+    /* border: 1px solid; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.nav-m a span{
+    display: block;
+    font-size: 12px;
+    color: #000000;
+    padding: 5px 20px;
+    margin-left: 15px;
+}
+.nav-m a span:hover{
+    color: #ffffff;
+    background-color: #0b68c8;
+}
+/* 最近更新 */
+.new-now{
+    position: relative;
+    height: 42px;
+    margin: 0px 15px;
+    border: 1px solid #dedede;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.new-now a span{
+    color: #0b68c8;
+    float: left;
+    display: block;
+    padding: 13px 30px;
+    /* background-color: #ffffff; */
+}
+.gengxin,.huanying{
+    position: absolute;
+    display: none;
+    top: -1px;
+    border-top: 4px solid #0b68c8;
+    color: #000000;
+    float: left;
+    /* display: block; */
+    padding: 10.4px 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.gengxin{
+    left: 0;
+    border-right: 1px solid #dedede;
+}
+.huanying{
+    left: 109px;
+    border-right: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+}
+/* 电影图片 */
+.movieBox{
+    height: auto;
+}
+.movie{
+    padding-bottom: 30px;
+}
+.movieImg{
+    position: relative;
+    display: inline-block;
+    /* float: left; */
+    margin-right: 7.3px;
+}
+.movieImg a img{
+    width: 205px;
+    margin-bottom: 5px;
+}
+
+.movieImg a{
+    font-size: 14px;
+    color: #000000;
+}
+.movieImg p{
+    color: #999999;
+    font-size: 12px;
+}
+/* 评分 */
+.movieImg i{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #e78563;
+    font-size: 16px;
+}
+/* 超清 */
+.movieImg::after{
+    content: attr(info);
+    position: absolute;
+    display: block;
+    bottom: 45px;
+    right: 5px;
+    padding: 0 2px;
+    color: #ffffff;
+    background-color: #000;
+    font-size: 12px;
+}
+/* vip专享 */
+.movieImg::before{
+    content: attr(info1);
+    position: absolute;
+    display: block;
+    top: 4px;
+    left: 5px;
+    padding: 0 15px;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #3ea000;
+    font-size: 12px;
+}

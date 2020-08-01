@@ -1,0 +1,72 @@
+/* 公共样式 */
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+img{
+    border: none;
+    /* vertical-align: top; */
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul li,ol li{
+    list-style: none;
+}
+input,button,textarea{
+    border: none;
+    outline: none;
+}
+.f_l{
+    float: left;
+}
+.f_r{
+    float: right;
+}
+.clearfix::after,.clearfix::before{
+    content: '.';
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+    display: block;
+    clear: both;
+}
+em,strong,i,b{
+    font-style: normal;
+    font-weight: 400;
+}
+table{
+    /* 细线边框 */
+    border-collapse: collapse;
+}
+.maincolor{
+    color: #ff6700;
+}
+.mb{
+    margin-bottom: 15px;
+}
+.mr{
+    margin-right: 15px;
+}
+.mr_no{
+    margin-right: 0px;
+}
+/* 版心 有效内容区域 */
+.e_area{
+    width: 1100px;
+    height: auto;
+    margin:  0 auto;
+}
+.e_area1{
+    width: 1380px;
+    height: auto;
+    margin:  0 auto;
+}
+

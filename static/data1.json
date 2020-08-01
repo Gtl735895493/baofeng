@@ -1,0 +1,314 @@
+{
+    "banner": [{
+        "big_img": "./images/banners/banner1.jpg",
+        "small_img": "./images/banners/1.jpg"
+    }, {
+        "big_img": "./images/banners/banner2.jpg",
+        "small_img": "./images/banners/2.jpg"
+    }, {
+        "big_img": "./images/banners/banner3.jpg",
+        "small_img": "./images/banners/3.jpg"
+    }, {
+        "big_img": "./images/banners/banner4.jpg",
+        "small_img": "./images/banners/4.jpg"
+    }, {
+        "big_img": "./images/banners/banner5.jpg",
+        "small_img": "./images/banners/5.jpg"
+    }, {
+        "big_img": "./images/banners/banner6.jpg",
+        "small_img": "./images/banners/6.jpg"
+    }, {
+        "big_img": "./images/banners/banner7.jpg",
+        "small_img": "./images/banners/7.jpg"
+    }, {
+        "big_img": "./images/banners/banner8.jpg",
+        "small_img": "./images/banners/8.jpg"
+    }, {
+        "big_img": "./images/banners/banner9.jpg",
+        "small_img": "./images/banners/9.jpg"
+    }],
+
+
+    "recommend": [{
+            "img": "./images/recommend/1.jpg",
+            "vip": "VIP专享",
+            "definition": "标清",
+            "title": "外乡人",
+            "detail": "上海外来人员的辛酸与甘甜",
+            "score": "9.1"
+        },
+        {
+            "img": "./images/recommend/2.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "叶问外传：张天志",
+            "detail": "正义中的胜负抗衡",
+            "score": "8.9"
+        },
+        {
+            "img": "./images/recommend/3.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "断片之险途夺宝",
+            "detail": "一个亿的冒险之旅",
+            "score": "5.2"
+        },
+        {
+            "img": "./images/recommend/4.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "李茶的姑妈",
+            "detail": "开心麻花第四部电影",
+            "score": "7.2"
+        },
+        {
+            "img": "./images/recommend/5.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "环太平洋：雷霆再起",
+            "detail": "人类最后的希望",
+            "score": "9.1"
+        }
+    ],
+
+
+    "hot": [
+
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/1.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "天气预爆",
+            "detail": "奇幻又紧张刺激的旅程",
+            "score": "7.0"
+        },
+        {
+            "img": "./images/hot/2.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "西虹市首富",
+            "detail": "有钱更烦恼的人生",
+            "score": "8.8"
+        },
+        {
+            "img": "./images/hot/3.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "我不是药神",
+            "detail": "徐峥走私印度抗癌药",
+            "score": "9.4"
+        },
+        {
+            "img": "./images/hot/4.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "红海行动",
+            "detail": "中国海军上演跨国救援",
+            "score": "9.3"
+        },
+        {
+            "img": "./images/hot/5.jpg",
+            "vip": "VIP免费",
+            "definition": "超清",
+            "title": "捉鬼记",
+            "detail": "知性女编遇恶鬼",
+            "score": "3.8"
+        }
+
+    ],
+
+
+
+    "guess": [{
+            "img": "./images/guess/1.jpg",
+            "title": "大码头",
+            "detail": "大型年代商业剧",
+            "score": "8.8",
+            "total": "32集全"
+        },
+        {
+            "img": "./images/guess/2.jpg",
+            "title": "丐侠传奇",
+            "detail": "武功商人丐侠传奇",
+            "score": "8.6",
+            "total": "30集全"
+        },
+        {
+            "img": "./images/guess/3.jpg",
+            "title": "可爱的你",
+            "detail": "无与伦比的美丽",
+            "score": "8.9",
+            "total": "更新至1集"
+        },
+        {
+            "img": "./images/guess/4.jpg",
+            "title": "我是路人甲",
+            "detail": "被梦想烧坏的年轻人",
+            "score": "8.6",
+            "total": "更新至1集"
+        },
+        {
+            "img": "./images/guess/5.jpg",
+            "title": "伪装者",
+            "detail": "胡歌演技突破首演特工",
+            "score": "9.4",
+            "total": "48集全"
+        },
+        {
+            "img": "./images/guess/6.jpg",
+            "title": "情满四合院",
+            "detail": "四合院里的人文故事",
+            "score": "9.1",
+            "total": "46集全"
+        },
+        {
+            "img": "./images/guess/7.jpg",
+            "title": "麻雀",
+            "detail": "李易峰加盟“汪伪特务”",
+            "score": "8.2",
+            "total": "61集全"
+        },
+        {
+            "img": "./images/guess/8.jpg",
+            "title": "狂飙支队",
+            "detail": "国共合作的那些事",
+            "score": "8.2",
+            "total": "38集全"
+        }
+    ],
+
+
+    "hot_recommend": [{
+            "img": "./images/hotrecommend/1.jpg",
+            "title": "开封府"
+        },
+        {
+            "img": "./images/hotrecommend/2.jpg",
+            "title": "萌鸡小学堂"
+        },
+        {
+            "img": "./images/hotrecommend/3.jpg",
+            "title": "魔都风云"
+        },
+        {
+            "img": "./images/hotrecommend/4.jpg",
+            "title": "天伦劫"
+        },
+        {
+            "img": "./images/hotrecommend/5.jpg",
+            "title": "娘亲舅大"
+        },
+        {
+            "img": "./images/hotrecommend/6.jpg",
+            "title": "麻雀"
+        },
+        {
+            "img": "./images/hotrecommend/7.jpg",
+            "title": "金战"
+        },
+        {
+            "img": "./images/hotrecommend/8.jpg",
+            "title": "可可小爱"
+        },
+        {
+            "img": "./images/hotrecommend/9.jpg",
+            "title": "战狼2"
+        }
+    ]
+}

@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>点播片库,暴风VIP会员,暴风商城</title>
+    <link rel="shortcut icon" href="../bf.ico">
+    <link rel="stylesheet" href="../css/vod-list.css">
+
+    <script>
+        window.onload = function () {
+            var gx = document.getElementById('gx')
+            var hy = document.getElementById('hy')
+            var gengxin = document.getElementsByClassName('gengxin')[0]
+            var huanying = document.getElementsByClassName('huanying')[0]
+            var movieBox = document.getElementsByClassName('movieBox')
+            gx.onmouseover = function () {
+                gengxin.style.display = 'block'
+                huanying.style.display = 'none'
+                movieBox[0].style.display = 'block'
+                movieBox[1].style.display = 'none'
+
+            }
+            hy.onmouseover = function () {
+                huanying.style.display = 'block'
+                gengxin.style.display = 'none'
+                movieBox[0].style.display = 'none'
+                movieBox[1].style.display = 'block'
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="top-nav">
+        <div class="e_area">
+            <a href="">
+                <div class="logo-box f_l"></div>
+            </a>
+            <ul class="f_r">
+                <li><a href="">暴风首页</a></li>
+                <li><a href="">个人中心</a></li>
+                <li><a href="">开通VIP</a></li>
+                <li><a href="">注册</a></li>
+                <li><a href="">登录</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header e_area">
+        <span style="margin-left: 40px;">首页</span>
+        <span>点播片库</span>
+        <span>激活码兑换</span>
+    </div>
+    <!-- 主体部分 -->
+    <!-- 外侧大盒子 -->
+    <div class="big-box e_area">
+        <div class="nav-m">
+            <a href=""><span>全部</span></a>
+            <a href=""><span>VIP会员免费</span></a>
+            <a href=""><span>VIP折扣点播</span></a>
+        </div>
+        <!-- 最近更新 -->
+        <div class="new-now">
+            <a href=""><span id="gx">最近更新</span></a>
+            <a href=""><span id="hy">最受欢迎</span></a>
+            <span class="gengxin">最近更新</span>
+            <span class="huanying">最受欢迎</span>
+        </div>
+        <!-- 电影图片 -->
+        <!-- 最近更新 -->
+        <div class="movieBox" style="display: none;">
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/1.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/2.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/3.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/4.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/5.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第二行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/6.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/7.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/8.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/9.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/10.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第三行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/11.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/12.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/13.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/14.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/15.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第4行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/16.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/17.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/18.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/19.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/20.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第五行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/21.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/22.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/23.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/24.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/25.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第6行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/26.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/27.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/28.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/29.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/30.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第七行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/31.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/32.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/33.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/34.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/35.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第8行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/36.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/37.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/38.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/39.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/40.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第九行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/41.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/42.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/43.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/44.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/45.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第10行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/46.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/47.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/48.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/49.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/50.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第11行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/51.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/52.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/53.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/54.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/55.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第12行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/56.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/57.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/58.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/59.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/60.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第13行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/61.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/62.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/63.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/64.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/65.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第14行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/66.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/67.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/68.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/69.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/70.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第15行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/71.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/72.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/73.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/74.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/update/75.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第16行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/update/76.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- 最受欢迎 -->
+        <div class="movieBox" >
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/1.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/2.jpg" alt=""><span>断片</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/3.jpg" alt=""><span>天气预爆</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/4.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/5.jpg" alt=""><span>西虹市首富</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第二行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/6.jpg" alt=""><span>我不是药神</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/7.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/8.jpg" alt=""><span>撒坝味道</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/9.jpg" alt=""><span>幕后玩家</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/10.jpg" alt=""><span>红海行动</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第三行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/11.jpg" alt=""><span>90后的80后后妈</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/12.jpg" alt=""><span>小夫妻</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/13.jpg" alt=""><span>内心引力</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/14.jpg" alt=""><span>东北情圣之假戏真做</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/15.jpg" alt=""><span>听见爱</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第4行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/16.jpg" alt=""><span>观音画卷</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/17.jpg" alt=""><span>小行你结婚</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/18.jpg" alt=""><span>孕妇风波</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/19.jpg" alt=""><span>我的男友是后羿</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/20.jpg" alt=""><span>老公是怎样恋成的</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第五行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/21.jpg" alt=""><span>现在加糖</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/22.jpg" alt=""><span>宿醉惊喜</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/23.jpg" alt=""><span>暑年困境</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/24.jpg" alt=""><span>欲望幸福</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/25.jpg" alt=""><span>SOME KWDOF BEAVTFUL</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第6行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/26.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/27.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/28.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/29.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/30.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第七行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/31.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/32.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/33.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/34.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/35.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第8行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/36.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/37.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/38.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/39.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/40.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第九行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/41.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/42.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/43.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/44.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/45.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第10行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/46.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/47.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/48.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/49.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/50.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第11行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/51.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/52.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/53.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/54.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/55.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第12行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/56.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/57.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/58.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/59.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/60.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第13行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/61.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/62.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/63.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/64.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/65.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第14行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/66.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/67.jpg" alt=""><span>幕后玩家</span>
+                        <p>徐峥摇身一变碟中谍</p>
+                        <i>9.2</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/68.jpg" alt=""><span>李茶的姑妈</span>
+                        <p>姑妈的幸福生活</p>
+                        <i>8.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/69.jpg" alt=""><span>断片</span>
+                        <p>喝酒太多发酒疯</p>
+                        <i>7.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/70.jpg" alt=""><span>恐怖阁楼</span>
+                        <p>哇！吓死你</p>
+                        <i>6.3</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第15行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/71.jpg" alt=""><span>红海行动</span>
+                        <p>中国海军上演跨国救援</p>
+                        <i>9.3</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/72.jpg" alt=""><span>我不是药神</span>
+                        <p>徐峥走私印度抗癌药</p>
+                        <i>9.4</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/73.jpg" alt=""><span>西虹市首富</span>
+                        <p>有钱更烦恼的人生</p>
+                        <i>8.8</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/74.jpg" alt=""><span>叶问外传:张天志</span>
+                        <p>正义中的胜负抗衡</p>
+                        <i>8.9</i>
+                    </a>
+                </div>
+                <div info="超清" info1="VIP专享" class="movieImg">
+                    <a href="">
+                        <img src="../images/favorite/75.jpg" alt=""><span>环太平洋:雷霆再起</span>
+                        <p>人类最后的希望</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 第16行 -->
+            <div class="movie">
+                <div info="超清" info1="VIP专享" info2="超清" class="movieImg" style="margin-left: 15px;">
+                    <a href="">
+                        <img src="../images/favorite/76.jpg" alt=""><span>真实的潘金莲</span>
+                        <p>武大郎潘金莲一见钟情</p>
+                        <i>9.1</i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 尾部 -->
+    <div class="footer e_area">
+        <div class="footer-top" style="margin-top: 30px;">
+            <div class="footer-text">
+                <div style="position: relative;">
+                    <p class="imgbox ibox1"></p>
+                    <div class="bar" inf01=""
+                        style="position: absolute;top: 0; right: 0; font-size: 12px; width: 140px;">
+                        <h3 style="padding-bottom: 16px;">新手指南</h3>
+                        什么是VIP，如何购买<br>
+                        暴豆说明<br>
+                        登录与注册
+                    </div>
+                </div>
+                <div style="position: relative;">
+                    <p class="imgbox ibox2"></p>
+                    <div class="bar" inf01=""
+                        style="position: absolute;top: 0; right: 0; font-size: 12px; width: 140px;">
+                        <h3 style="padding-bottom: 16px;">特权问题</h3>
+                        VIP特权<br>
+                        VIP权限设置<br>
+                        如何购买付费点播影片
+                    </div>
+                </div>
+                <div style="position: relative;">
+                    <p class="imgbox ibox3"></p>
+                    <div class="bar" inf01=""
+                        style="position: absolute;top: 0; right: 0; font-size: 12px; width: 140px;">
+                        <h3 style="padding-bottom: 16px;">付款方式</h3>
+                        VIP购买支付流程<br>
+                        优惠券的查看与使用<br>
+                        支付常见问题解答
+                    </div>
+                </div>
+                <div style="position: relative;">
+                    <p class="imgbox ibox4"></p>
+                    <div style="position: absolute;top: 0; right: 0; font-size: 12px; width: 140px;">
+                        <h3 style="padding-bottom: 16px;">其他问题</h3>
+                        常见问题解答<br>
+                        VIP会员服务协议<br>
+                        暴风论坛
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p style="margin-top: 60px;">VIP专属客服QQ: 800111739电话: 4000987846 (周一至周日9:30-18:30 )</p>
+            <p>暴风集团股份有限公司</p>
+            <p>京ICP证070364号京网文[2014] 0921-221号互联网药品信息服务资格证书(京)-非经营性2008-0039广播电视节目制作经营许可证: (京)字第01166号</p>
+            <p>京公网安备: 11010802904415信息网络传播视听许可证号: 0108298</p>
+        </div>
+    </div>
+</body>
+
+</html>

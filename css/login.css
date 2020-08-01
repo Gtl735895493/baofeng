@@ -1,0 +1,170 @@
+@import './common.css';
+
+.big-box{
+    width: 100%;
+    height: auto;
+}
+.logo-box{
+    height: 90px;
+}
+.logo{
+    width: 175px;
+    height: 80px;
+    background: url(../images/image/indexicons.png) no-repeat;
+    background-position: 0px -545px;
+    margin-top: 4px;
+}
+/* 主体部分 */
+.main{
+    width: 100%;
+    height: 542px;
+    background: url(../images/image/mbanner.jpg) repeat-x;
+    background-position: 800px 0;
+}
+.im{
+    float: left;
+    width: 705px;
+}
+.loginForm{
+    position: relative;
+    float: right;
+    width: 333px;
+    height: 447px;
+    background-color: #ffffff;
+    margin-top: 55px;
+}
+.logo1{
+    width: 85px;
+    height: 25px;
+    margin: 25px 25px 40px ;
+    background: url(../images/image/new-sso.png) no-repeat;
+    background-position: -98px 0px;
+}
+.inputBox{
+    width: 284px;
+    height: 32px;
+    margin: 12px 25px;
+    border: 1px solid #dddddd;
+}
+.inputBox span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/image/new-sso.png);
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+.ino1{
+    background-position: -93px -34px;
+}
+.ino2{
+    background-position: -33px -34px;
+}
+.main input{
+    width: 250px;
+    height: 25px;
+    margin-top: 2.5px;
+    color: #757575;
+}
+p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    line-height: 24px;
+}
+/* 记住我 */
+.checkbox{
+    margin-left: 25px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+}
+
+[id^="rememberMe"] + label{
+    background-color: #ffffff;
+    border: 1px solid #1a9eff;
+    display: inline-block;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+    border-radius: 1px;
+    cursor: pointer;
+}
+[id^="rememberMe"]:checked + label{
+    background-image: url(../images/image/new-sso.png);
+    background-position: -22px -67px;
+}
+/* 立即注册/找回密码 */
+.checkRight{
+    float: right;
+    margin-right: 25px;
+}
+.checkRight a{
+    color: #1a9eff;
+    font-size: 12px;
+}
+.checkRight span{
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin:0 3px;
+    vertical-align: middle;
+    background-color: #1a9eff;
+}
+/* 登录按钮 */
+#submit{
+    width: 284px;
+    height: 32px;
+    color: #ffffff;
+    margin:10px 25px;
+    border: 1px solid #1a9eff;
+    background-color: #1a9eff;
+}
+.problem{
+    margin:0 25px ;
+}
+.problem a{
+    font-size: 12px;
+    color: #999999;
+}
+.problem span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/image/new-sso.png) no-repeat;
+    background-position: -164px -73px;
+    vertical-align: bottom;
+}
+/* 其他方式登录 */
+.login_bottom{
+    position: absolute;
+    bottom: 70px;
+    width: 70%;
+    height: 29px;
+    text-align: center;
+    margin-left: 15%;
+}
+.oth_type_tit{
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    color: #999999;
+}
+.other span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 20px 10px;
+    background: url(../images/image/new-sso.png) no-repeat;
+    /* border: 1px solid; */
+}
+.other .span1{
+    background-position: 2px -350px;
+}
+.other .span2{
+    width: 30px;
+    background-position: -30px -350px;
+}
+.other .span3{
+    width: 30px;
+    background-position: -60px -350px;
+}
